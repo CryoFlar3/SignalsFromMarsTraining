@@ -16,12 +16,15 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/titleImageView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="Signals from Mars title image"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/main_title"
-        tools:layout_editor_absoluteX="19dp"
-        tools:layout_editor_absoluteY="17dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/main_title" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
