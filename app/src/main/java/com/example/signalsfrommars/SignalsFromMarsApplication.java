@@ -8,7 +8,7 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-public class InteractiveStoryApplication extends Application {
+public class SignalsFromMarsApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
